@@ -13,10 +13,16 @@
         android:theme="@style/Theme.LinearConstraintLayouts"
         tools:targetApi="31">
         <activity
-            android:name=".secondActivity"
+            android:name=".imageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".additionActivity"
             android:exported="false" />
         <activity
             android:name=".thirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
